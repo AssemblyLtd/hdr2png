@@ -13,7 +13,7 @@
 #endif
 
 
-#ifdef __APPLE__
+#if defined(__APPLE__) || defined(__linux__)
 #include <stdlib.h>
 #include <math.h>
 #include <assert.h>
